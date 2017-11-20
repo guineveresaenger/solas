@@ -22,6 +22,7 @@ For example, the artifact for the container repository `container-zabra` is name
 `zabra-container`. And for the application repository `chart-zabra`, the
 artifact is named simply `zabra`. We've chosen this naming convention because the application, not
 the container, is generally the artifact we expect users to interact with.
+_Exception:_
 Because Quay repositories and applications share the same namespace, and because we have some older Quay artifacts, there are some cases in which the plain `zabra` name for a chart is already taken on Quay. In this case, the chart artifact  is called `zabra-chart`.
 
 To create a repository, log into [quay.io](https://quay.io) and follow the steps shown in the screenshot below, 

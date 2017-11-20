@@ -9,7 +9,7 @@ We use GitLab to implement our CI/CD pipelines. There is one GitLab repository f
 each GitHub repository. Each job builds, tests and, then deploys an artifact
 to Quay. Here you'll find our best practices for creating and managing GitHub repositories, templates for issues and PRs, commit hooks, licensing guidelines and more.
 
-
+All of samsung-cnct's GitHub repositories are automatically linked to GitLab via our [implementation](https://github.com/samsung-cnct/chart-failfast-ci) of the [failfast API](https://github.com/samsung-cnct/failfast-api). This means that as long as a project owned by samsung-cnct has a `.gitlab-ci.yml` file, a GitLab repository and CI pipeline will be created automatically, with no additional setup.
 
 ## Quickstart
 
