@@ -22,7 +22,8 @@ For example, the artifact for the container repository `container-zabra` is name
 `zabra-container`. And for the application repository `chart-zabra`, the
 artifact is named simply `zabra`. We've chosen this naming convention because the application, not
 the container, is generally the artifact we expect users to interact with.
-_Exception:_
+
+#### Exception
 Because Quay repositories and applications share the same namespace, and because we have some older Quay artifacts, there are some cases in which the plain `zabra` name for a chart is already taken on Quay. In this case, the chart artifact  is called `zabra-chart`.
 
 To create a repository, log into [quay.io](https://quay.io) and follow the steps shown in the screenshot below, 
@@ -46,7 +47,7 @@ By convention, robot accounts are named after the artifact they're associated
 with and the permissions they grant. Dashes are not allowed in robot names, so
 they are replaced by underscores. For example, read/write premissions for
 the `zabra-container` artifact are named `zabra_container_rw`. The same
-permissions for `zabra` are `zabra_rw`, or in [some cases](#naming) `zabra_chart_rw`.
+permissions for `zabra` are `zabra_rw`, or in [some cases](#exception) `zabra_chart_rw`.
 
 * Go to your repository's settings
 * Under the section ` User and Robot Permissions`
