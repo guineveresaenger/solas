@@ -26,6 +26,8 @@ the container, is generally the artifact we expect users to interact with.
 #### Exception
 Because Quay repositories and applications share the same namespace, and because we have some older Quay artifacts, there are some cases in which the plain `zabra` name for a chart is already taken on Quay. In this case, the chart artifact  is called `zabra-chart`.
 
+## Create a repository
+
 To create a repository, log into [quay.io](https://quay.io) and follow the steps shown in the screenshot below, 
 
 <p align="center">
