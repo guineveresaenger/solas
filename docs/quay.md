@@ -46,7 +46,7 @@ By convention, robot accounts are named after the artifact they're associated
 with and the permissions they grant. Dashes are not allowed in robot names, so
 they are replaced by underscores. For example, read/write premissions for
 the `zabra-container` artifact are named `zabra_container_rw`. The same
-permissions for `zabra` are `zabra_rw`, or in [some cases](#Naming) `zabra_chart_rw`.
+permissions for `zabra` are `zabra_rw`, or in [some cases](#naming) `zabra_chart_rw`.
 
 * Go to your repository's settings
 * Under the section ` User and Robot Permissions`
