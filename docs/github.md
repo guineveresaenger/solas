@@ -6,5 +6,5 @@ add "commontools" as a team with admin privileges (required for
 with write privileges (required for [CODEOWNERS](./CODEOWNERS)).
 
 <p align="center">
-  <img src="https://github.com/NancyHarvey/solas/blob/master/docs/images/github/GitHub%20Teams_edited.png" width="900" title="GitHub teams">
+  <img src="/images/github/GitHub%20Teams_edited.png" width="900" title="GitHub teams">
 </p>
