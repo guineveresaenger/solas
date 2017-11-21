@@ -30,6 +30,7 @@ cd ..
 rm -rf solas.git
 ```
 
+- Configure [Github collaborators and teams](/docs/github.md)
 - Configure CI/CD by following the instructions for [Quay](/docs/quay.md), and [GitLab](/docs/gitlab.md).
 - Configure [Slack](/docs/slack.md) notifications
 - [Fork](https://help.github.com/articles/fork-a-repo/) the `zabra` repo
